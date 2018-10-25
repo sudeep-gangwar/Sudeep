@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OTPverify"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    >
+
+    <LinearLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".4"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:padding="50dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/ic_launcher_background" />
+
+            <TextView
+                android:textStyle="italic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Restricted Entry"
+                android:textColor="#fff"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".6"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:padding="5dp"
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:text="Wait for the code I sent You"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+            android:textColor="@color/colorPrimary" />
+
+        <ProgressBar
+            android:layout_marginTop="12dp"
+            android:layout_gravity="center"
+            android:id="@+id/progressbar"
+            android:layout_below="@id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:background="@drawable/edittextstyle"
+            android:id="@+id/editTextCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/progressbar"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:digits="0123456789"
+            android:drawablePadding="10dp"
+            android:hint="__ __ __ __ __ __"
+            android:inputType="phone"
+            android:maxLength="6" />
+
+        <Button
+
+            android:layout_gravity="center"
+            android:id="@+id/buttonSignIn"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextCode"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/buttonstyle"
+            android:text="Sign In"
+            android:textAllCaps="false"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+        <group android:checkableBehavior="single">
+
+            <item android:id="@+id/home"
+                android:title="Home"
+                android:icon="@drawable/nav_slide_image"
+
+                />
+
+            <item android:id="@+id/dashbroad"
+                android:title="Camera"
+                android:icon="@drawable/cameraimage"/>
+
+            <item android:id="@+id/sitting"
+                android:title="Setting"
+                android:icon="@drawable/nav_tool_image"/>
+
+            <item android:id="@+id/sign"
+                android:title="Galary"
+                android:icon="@drawable/nav_galary_image"/>
+
+        </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="Share"
+                android:icon="@drawable/nav_setting_image"/>
+
+            <item
+                android:id="@+id/nav_send"
+                android:title="Send"
+                android:icon="@drawable/nav_send_image"/>
+        </menu>
+    </item>
+
+</menu>

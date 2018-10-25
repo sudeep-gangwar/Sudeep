@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewPass_NextPage"
+    android:id="@+id/newpass_frag"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/dailypass_button"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView2"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="-14dp"
+            android:layout_marginBottom="133dp"
+            android:background="@drawable/newpass_buttonstyle"
+            android:text="Daily Pass"
+            android:textAllCaps="false"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/guestpass_button"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/dailypass_button"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginBottom="69dp"
+            android:background="@drawable/newpass_buttonstyle"
+            android:text="Guest Pass"
+            android:textAllCaps="false"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/imageView2"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-22dp"
+            android:layout_marginTop="328dp"
+            android:text="Choose Pass type: "
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="226dp"
+            android:src="@drawable/checklist" />
+
+        <!--<TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/button"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="166dp"
+            android:text="Farland Avenue" />-->
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageView2"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="126dp"
+            android:layout_marginEnd="-39dp"
+            android:text="Residency: Home"
+            android:textColor="#000"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageView2"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="152dp"
+            android:layout_marginEnd="-12dp"
+            android:text="Farland Avenue" />
+
+
+    </RelativeLayout>
+</FrameLayout>

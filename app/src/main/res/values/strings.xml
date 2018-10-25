@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RestrictedEntry</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="nav_header_title">Sudeep Gangwar</string>
+    <string name="nav_header_subtitle">9997882345</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
